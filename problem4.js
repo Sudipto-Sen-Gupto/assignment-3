@@ -1,11 +1,11 @@
 /** Problem 04 - (Delete / Store) */
-var fileName= "#exp.mp4";
+var fileName= "pdfData.jpg";
 //write your code here
 
-if(fileName.includes('#')|| fileName.includes(".pdf")|| fileName.includes(".docs")){
-  console.log("store");
+if(fileName.startsWith("#")|| fileName.endsWith(".pdf")|| fileName.endsWith(".docx")){
+  console.log("Store");
 }
 else{
-    console.log("delete");
+    console.log("Delete");
 }
-// fileName=fileName.slice(1).includes('#');
+
